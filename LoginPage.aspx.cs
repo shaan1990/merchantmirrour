@@ -119,13 +119,4 @@ public partial class LoginPage : System.Web.UI.Page
         return Convert.ToBase64String(hash);
     }
 
-    //public string GetHash(this string stringToHash, string hashAlgorithm)
-    //{
-    //    var algorithm = System.Security.Cryptography.HashAlgorithm.Create(hashAlgorithm);
-    //    byte[] hash = algorithm.ComputeHash(System.Text.Encoding.UTF8.GetBytes(stringToHash));
-
-    //    // ToString("x2")  converts byte in hexadecimal value
-    //    string encryptedVal = string.Concat(hash.Select(b => b.ToString("x2"))).ToUpperInvariant();
-    //    return encryptedVal;
-    //}
 }
